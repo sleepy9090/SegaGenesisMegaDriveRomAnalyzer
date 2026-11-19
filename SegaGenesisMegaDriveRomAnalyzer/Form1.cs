@@ -97,7 +97,7 @@ namespace SegaGenesisMegaDriveRomAnalyzer
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Title = "Open file...";
-            openFileDialog.Filter = "bin files (*.bin)|*.bin|All files (*.*)|*.*";
+            openFileDialog.Filter = "bin files (*.bin)|*.bin|md files (*.md)|*.md|All files (*.*)|*.*";
             openFileDialog.Multiselect = false;
 
             if(openFileDialog.ShowDialog() == DialogResult.OK)
